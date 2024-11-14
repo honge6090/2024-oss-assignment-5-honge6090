@@ -35,7 +35,7 @@ const ShowList = () => {
     if (!formData.credit.trim()) errors.credit = "Credits are required";
     if (!formData.code.trim()) errors.code = "Course code is required";
     setErrors(errors);
-    return Object.keys(errors).length === 0; // returns true if no errors
+    return Object.keys(errors).length === 0;
   };
 
   const addItem = async () => {
